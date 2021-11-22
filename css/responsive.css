@@ -1,0 +1,605 @@
+/*=======================
+    extra small device
+=========================*/
+@media (max-width: 575px){
+    .navbar{
+        top: 0;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .navbar-light .navbar-toggler{
+        border-color: #0066e7;
+        color: #00bbff;
+    }
+
+    .navbar .navbar-nav{
+        background-color: #fff;
+        text-align: center;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0 !important;
+    }
+
+    /* navbar css ends */
+
+    #banner{
+        padding-bottom: 30px;
+    }
+    #banner .banner-person .person-border::after{
+        width: 205px !important;
+        display: none;
+    }
+
+    #banner .banner-person::before{
+        height: 330px;
+        right: 40px;
+        display: none;
+    }
+
+    #banner .banner-person::after{
+        bottom: 48px;
+        display: none;
+    }
+
+    #banner .banner-person .person-border::before{
+        display: none;
+    }
+
+    #banner .banner-person .banner-message{
+        top: 140px;
+        display: none;
+    }
+
+    #banner .banner-text p{
+        padding-top: 60px;
+        font-size: 30px !important;
+    }
+
+    #banner .banner-text h1{
+        font-size: 45px !important;
+    }
+
+    #banner .banner-text h5{
+        font-size: 13px !important;
+    }
+
+    #banner .banner-text h5 span{
+        margin: 0 6px;
+    }
+
+    /* banner css ends */
+
+    #about{
+            padding-top: 60px;
+            padding-bottom: 60px;
+    }
+
+    #about .about-person .abt-border {
+        width: 100%;
+        bottom: -2px;
+        left: 0;
+    }
+
+    #about .about-person .abt-border{
+        display: none;
+    }
+
+    #about .about-text h3 {
+        margin-bottom: 30px !important;
+        margin-top: 30px;
+    }
+
+    
+    #about .about-text .about-item {
+        margin-bottom: 20px !important;
+    }
+
+    #about .about-text .about-icon-text p{
+        margin-bottom: 10px !important;
+    }
+
+    /* about css ends*/
+
+    #service {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #service .service-item {
+       text-align: center;
+    }
+
+    #service .service-item p {
+       padding: 0 42px;
+    }
+
+    /* service css ends */
+
+    #portfolio {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #portfolio .portfolio-nav .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #portfolio .portfolio-nav ul li{
+        margin-bottom: 10px;
+        padding-right: 0 !important;
+    }
+
+    #portfolio .portfolio-nav ul li::after{
+        display: none;
+    }
+
+    #portfolio .portfolio-item{
+        width: 100%;
+        margin-right: 0 !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+
+    #portfolio .portfolio-btn{
+        text-align: center;
+    }
+
+    /* portfolio css ends*/
+
+    #work{
+        padding-bottom: 60px !important;
+    }
+    #work .work-item{
+        margin-bottom: 30px;
+    }
+
+    #work .work-text p {
+       padding: 0 88px;
+       
+    }
+    #work .work-item::after {
+        bottom: -148px;
+        right: -270px;
+    }
+    /* work css ends */
+     
+    #funfact .fun-item{
+        margin: 10px 0;
+    }
+     /* funfact css ends*/
+
+    #testimonial{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #testimonial .testimonial-item:first-of-type{
+        margin-right: 0px !important;
+    }
+
+    #testimonial .testimonial-item .card-body .card-text{
+        padding: 30px 0px;
+        margin-bottom: 0px !important;
+    }
+
+    /* testimonial css ends*/
+
+    #newsletter {
+        padding-bottom: 60px;
+    }
+
+    /* newsletter css ends*/
+
+    #brand .brand-item{
+        border: none !important;
+    }
+    /* brand css ends*/
+
+    footer .footer-brand p{
+        padding: 0 10px;
+    }
+
+    footer::before{
+        display: none;
+    }
+
+    footer::after{
+       display: none;
+    }
+
+    footer .copyright{
+        text-align: center;
+    }
+
+    /* footer css ends*/
+  
+
+    }
+   
+/*=======================
+    extra small device
+=========================*/
+
+/*=======================
+       small device
+=========================*/
+@media (min-width:576px) and (max-width:767px){
+    .navbar{
+        top: 0;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    
+    .navbar-light .navbar-toggler{
+        border-color: #0066e7;
+        color: #00bbff;
+    }
+    
+    .navbar .navbar-nav{
+        background-color: #fff;
+        text-align: center;
+    }
+
+    
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0 !important;
+    }
+
+    /* navbar css ends*/
+
+    #banner{
+        padding-bottom: 30px;
+    }
+    #banner .banner-person .person-border::after{
+        width: 205px !important;
+        display: none;
+    }
+
+    #banner .banner-person::before{
+        height: 330px;
+        right: 40px;
+        display: none;
+    }
+
+    #banner .banner-person::after{
+        bottom: 48px;
+        display: none;
+    }
+
+    #banner .banner-person .person-border::before{
+        display: none;
+    }
+
+    #banner .banner-person .banner-message{
+        top: 140px;
+        display: none;
+    }
+
+    #banner .banner-text p{
+        padding-top: 60px;
+        font-size: 30px !important;
+    }
+
+    #banner .banner-text h1{
+        font-size: 45px !important;
+    }
+
+    #banner .banner-text h5{
+        font-size: 13px !important;
+    }
+
+    #banner .banner-text h5 span{
+        margin: 0 6px;
+    }
+    
+    
+    /* banner css ends */
+
+    #about{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #about .about-person .abt-border {
+         left: 68px;
+    }
+
+    #about .about-text h3 {
+        margin-bottom: 30px !important;
+        margin-top: 30px;
+    }
+
+
+     #about .about-text .about-item {
+        margin-bottom: 20px !important;
+    }
+
+    #about .about-text .about-icon-text p{
+        margin-bottom: 10px !important;
+     }
+
+    /* about css ends*/
+
+     #service {
+       padding-top: 30px;
+       padding-bottom: 30px;
+    }
+
+     #service .service-item {
+       text-align: center;
+    }
+
+    #service .service-item p {
+      padding: 0 14px;
+    }
+
+     /* service css ends */
+
+     #portfolio {
+       padding-top: 60px;
+       padding-bottom: 60px;
+    }
+
+     #portfolio .portfolio-nav .nav{
+       flex-direction: column;
+       align-items: center;
+    }
+
+     #portfolio .portfolio-nav ul li{
+       margin-bottom: 10px;
+       padding-right: 0 !important;
+    }
+
+     #portfolio .portfolio-nav ul li::after{
+       display: none;
+    }
+
+     #portfolio .portfolio-item{
+       width: 100%;
+       margin-right: 0 !important;
+       margin-top: 30px !important;
+       margin-bottom: 30px !important;
+    }
+
+    #portfolio .portfolio-btn{
+      text-align: center;
+    }
+
+    /* portfolio css ends*/
+
+    #work{
+      padding-bottom: 60px !important;
+    }
+    #work .work-item{
+      margin-bottom: 30px;
+    }
+
+    #work .work-text p {
+       padding: 0 88px;
+      
+    }
+    #work .work-item::after {
+        bottom: -148px;
+        right: -250px;
+    }
+    /* work css ends*/
+
+    #funfact .fun-item{
+        margin: 30px 0;
+    }
+     /* funfact css ends*/
+
+    #testimonial{
+       padding-top: 60px;
+       padding-bottom: 60px;
+    }
+
+    #testimonial .testimonial-item:first-of-type{
+       margin-right: 0px !important;
+    }
+
+    #testimonial .testimonial-item .card-body .card-text{
+       padding: 30px 0px;
+       margin-bottom: 0px !important;
+    }
+
+    /* testimonial css ends*/
+
+    #newsletter {
+       padding-bottom: 60px;
+    }
+    /* newsletter css ends*/
+
+    #brand .brand-item{
+       border: none !important;
+    }
+    /* brand css ends*/
+
+    footer .footer-brand p{
+       padding: 0 10px;
+    }
+
+    footer::before{
+       display: none;
+     }
+
+    footer::after{
+      display: none;
+    }
+    /* footer css ends*/
+
+}
+
+/*=======================
+     small device
+=========================*/
+
+/*=======================
+     medium device
+=========================*/
+@media (min-width:768px) and (max-width:991px){
+    .navbar{
+        top: 0;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    
+    .navbar-light .navbar-toggler{
+        border-color: #0066e7;
+        color: #00bbff;
+    }
+
+
+    .navbar .navbar-nav{
+        background-color: #fff;
+        text-align: center;
+    }
+
+    
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0 !important;
+    }
+
+    /* navbar css ends*/
+
+    #banner .banner-person .banner-message{
+        top: 162px;
+    }
+
+    #banner .banner-person::before{
+        height: 370px;
+    }
+
+    
+    #banner .banner-person .person-border::after{
+        width: 235px;
+    }
+
+    #banner .banner-person::after{
+        bottom: 65px;
+    }
+
+    #banner .banner-text p{
+        padding-top: 115px;
+        font-size: 24px !important;
+
+    }
+
+    #banner .banner-text h1{
+        font-size: 42px !important;
+    }
+
+    #banner .banner-text h5{
+        font-size: 13px !important;
+    }
+
+    #banner .banner-text h5 span{
+        margin: 0 8px;
+    }
+    /* banner css ends*/
+
+    #about{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #about .about-person .abt-border {
+        left: 159px;
+    }
+
+    #about .about-text h3 {
+        margin-bottom: 30px !important;
+        margin-top: 30px;
+    }
+
+
+     #about .about-text .about-item {
+        margin-bottom: 20px !important;
+    }
+
+    #about .about-text .about-icon-text p{
+        margin-bottom: 10px !important;
+     }
+     /* about css ends*/
+
+     #portfolio {
+        padding-top: 60px;
+        padding-bottom: 60px;
+     }
+ 
+      #portfolio .portfolio-nav .nav{
+        flex-direction: column;
+        align-items: center;
+     }
+ 
+      #portfolio .portfolio-nav ul li{
+        margin-bottom: 10px;
+        padding-right: 0 !important;
+     }
+ 
+      #portfolio .portfolio-nav ul li::after{
+        display: none;
+     }
+ 
+      #portfolio .portfolio-item{
+        width: 100%;
+        margin-right: 0 !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+     }
+ 
+     #portfolio .portfolio-btn{
+       text-align: center;
+     }
+ 
+     /* portfolio css ends*/
+
+     #work{
+        padding-bottom: 60px !important;
+      }
+      #work .work-item{
+        margin-bottom: 30px;
+      }
+
+      #work .work-text p {
+        padding: 0 150px;
+       
+    }
+      #work .work-item::after {
+        bottom: -147px;
+        right: -349px;
+    }
+  
+      /* work css ends*/
+
+    #testimonial .testimonial-item:first-of-type{
+        margin-right: 0px !important;
+    }
+    /* testimonial css ends*/
+    #newsletter {
+        padding-bottom: 60px;
+     }
+     /* newsletter css ends*/
+
+    #brand .brand-item{
+        border: none !important;
+        
+     }
+     /* brand css ends*/
+
+    footer::before{
+        display: none;
+      }
+ 
+     footer::after{
+       display: none;
+     }
+     /* footer css ends*/
+
+}
+
+/*=======================
+     medium device
+=========================*/
